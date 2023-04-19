@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: rgb(255,234,209);
+    background: linear-gradient(0deg, rgba(255,234,209,1) 0%, rgba(239,247,255,1) 100%);
+}
+
+header{
+    padding: 2%;
+}
+
+.sessao-principal {
+    padding: 2%;
+}
+
+footer{
+    padding: 2%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+h1{
+    font-family: 'Russo One', sans-serif;
+}
+
+p{
+    line-height: 1.5;
+    margin-bottom: 1%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+table{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+th{
+    width: 50%;
+    text-align: center;
+    height: 4em;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+td{
+    width: 50%;
+    text-align: center;
+    height: 4em;
+    font-weight: 600;
+}
+
+a{
+    color: #0030c0;
+    font-weight: 900;
+}
+
+h3{
+    opacity: 0;
+}
+
+.carousel-inner{
+    border-radius: 10px;
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+@media screen and (min-width: 1280px) {
+    h3{
+        color: #000;
+        background-color: #FFF;
+        opacity: 70%;
+        padding: 1%;
+    }
+}
